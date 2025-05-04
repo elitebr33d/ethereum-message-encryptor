@@ -1,0 +1,20 @@
+{
+  "name": "ethereum-message-encryptor",
+  "version": "1.0.0",
+  "description": "Have encrypted conversations using ethereum wallets.",
+  "license": "ISC",
+  "author": "0xBR33D",
+  "type": "commonjs",
+  "main": "ethereum_wallet_messenger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ethereum_wallet_messenger.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "ethers": "^6.13.7",
+    "fs": "^0.0.1-security",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {}
+}
